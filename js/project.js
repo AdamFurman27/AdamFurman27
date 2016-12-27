@@ -20,6 +20,21 @@ $(document).ready(function(){
 		}
 	});
 
+	$(".typed-bmore").typed({
+	strings: ["Born in Baltimore.", "Programmer.","Rock Climber.","Hiker,", "Scrambler", "Thinker.", "Political", "Community-Minded", "French", "","","", "Born in Baltimore."],
+	typeSpeed: 40
+	});
+
+	$(".typed-mtl").typed({
+	strings: [ "Musician In Montreal.", "Percussionist.", "Electric-Harp", "Drum-Set.", "Vibraphone.", "Hammer-Dulcimer.", "Pianist.", "German","","","","Musician In Montreal."],
+	typeSpeed: 40
+	});
+
+	$(".typed-nyc").typed({
+	strings: [ "Innovator in New York City.", "Digital Specialist", "Content Strategist", "Tech-Enthusiast", "Coder.", "Entrepreneaur", "English", "","","", "Innovator In New York City."],
+	typeSpeed: 40
+	});
+
 	// document.getElementById("last-block").onscroll = function() {typed()};
 
 	// function typed() {
