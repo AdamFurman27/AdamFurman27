@@ -497,6 +497,10 @@ html {
  		margin: 0;
  	}
 
+ 	.picture-3 {
+ 		height: 500px;
+ 	}
+
  	.text {
  		height: 500px;
  	}
