@@ -31,7 +31,7 @@ html {
 		margin-top: 1%;
 		margin-left: 2.5%;
 		margin-right: 2.5%;
-		margin-bottom: 1%;
+		margin-bottom: 2%;
 	}
 
 	.task-list-1 {
@@ -72,7 +72,7 @@ html {
 
 	.block li {
 		font-size: 1.5em;
-		margin-top: .5%;
+		margin-top: 1%;
 	}
 
 	.block-1, .block-3, .block-5, .block-7, .block-9 {
@@ -359,6 +359,10 @@ html {
 	  max-height: 100%;
 	}
 
+	.mfp-close-btn-in .mfp-close {
+		color: #333;
+	}
+
 	.form {
 	    text-align: center;
 	    margin: 10px 0;
@@ -462,6 +466,26 @@ html {
 	    color: #787878;
 	    cursor:pointer;
 	}
+
+	/*.form-button {
+		float: right;
+		font-size: 3em;
+		padding-bottom: 0;
+		height: 45px;
+		position: relative;
+		margin-bottom: 10px;
+	}*/
+
+	.w3-closebtn {
+		text-decoration:none;
+		float:right;
+		font-size:24px;
+		font-weight:bold;
+		color:inherit;
+
+	}
+
+	.w3-closebtn:hover, .w3-closebtn:focus{color:#000;text-decoration:none;cursor:pointer}
 
 @media screen and (max-width:768px) {
  	h1 {
