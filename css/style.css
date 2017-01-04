@@ -83,6 +83,14 @@ html {
 		background-color: #F5F5F5;
 	}
 
+	.block-1 {
+		height: 450px;
+	}
+
+	.block-9 {
+		height: 450px;
+	}
+
 	.block-2, .block-4, .block-6, .block-8 {
 		background-color: #E5E5E5;
 	}
@@ -551,8 +559,6 @@ html {
  		background-image: URL("../img/city2.jpg");
  		background-repeat: no-repeat;
  	}
-
-
 
  	.mobile-block{
 		display: block;
