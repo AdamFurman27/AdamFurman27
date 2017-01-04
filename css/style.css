@@ -289,6 +289,10 @@ html {
 		font-size: .9em;
 	}
 
+	h10 {
+		display: none;
+	}
+
 	#download {
 		padding-left: 0;
 	}
@@ -563,6 +567,7 @@ html {
  	.block-2 {
  		background-image: URL("../img/city2.jpg");
  		background-repeat: no-repeat;
+ 		height: 500px;
  	}
 
  	.mobile-block{
@@ -640,5 +645,10 @@ html {
 
  	.motto-1 {
  		font-size: .8em;
+ 	}
+
+ 	h10 {
+ 		font-size: 3em;
+ 		display: inline-block;
  	}
 }
