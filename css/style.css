@@ -573,6 +573,8 @@ html {
  	.mobile-block{
 		display: block;
 		background-image: none;
+		height: 1050px;
+		padding: 50px;
 	}
 
  	.motto-1 {
@@ -610,6 +612,7 @@ html {
 
  	.block li {
  		font-size: 1.75em;
+ 		margin-top: 5%;
  	}
 
  	ul {
@@ -630,6 +633,17 @@ html {
 	.block-1 {
  		height: 300px;
  	}
+
+ 	.mobile-block{
+		height: 1050px;
+		padding: 50px;
+	}
+
+	.block li {
+		margin-top: 5%;
+	}
+
+
 
  	h1 {
  		font-size: 4em;
