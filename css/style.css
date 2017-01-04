@@ -570,10 +570,22 @@ html {
  		height: 500px;
  	}
 
+ 	.block-3 {
+ 		background-image: URL("../img/montreal2.jpg");
+ 		background-repeat: no-repeat;
+ 		height: 350px;
+ 	}
+
+ 	.block-4 {
+ 		background-image: URL("../img/baltimore2.jpg");
+ 		background-repeat: no-repeat;
+ 		height: 350px;
+ 	}
+
  	.mobile-block{
 		display: block;
 		background-image: none;
-		height: 1050px;
+		height: 1100px;
 		padding: 50px;
 	}
 
@@ -610,6 +622,10 @@ html {
  		display: none;
  	}
 
+ 	.text-2 {
+ 		display: none;
+ 	}
+
  	.block li {
  		font-size: 1.75em;
  		margin-top: 5%;
@@ -635,7 +651,7 @@ html {
  	}
 
  	.mobile-block{
-		height: 1050px;
+		height: 1150px;
 		padding: 50px;
 	}
 
