@@ -70,6 +70,10 @@ html {
 		text-align: left;
 	}
 
+	.mobile-block{
+		display: none;
+	}
+
 	.block li {
 		font-size: 1.5em;
 		margin-top: 1%;
@@ -108,11 +112,33 @@ html {
 		display: inline-block;
 	}
 
-	.nyc-pic {
+	.nyc-pic, .blt-pic{
 		height: 100%;
 		width: 100%;
 		display: inline-block;
 		float: right;
+	}
+
+	.mtl-pic {
+		height: 500px;
+		width: 100%;
+		right: 0;
+		/*z-index: -1;
+		position: absolute;*/
+	}
+
+	.music-pic {
+		height: 100%;
+		width: 100%;
+	}
+
+	.mcgill-pic {
+		height: 100%;
+		width: 50%;
+		left: 20px;
+		z-index: -1;
+		transform: scaleX(-1);
+		display: inline-block;
 	}
 
 	.picture-2 {
@@ -238,7 +264,7 @@ html {
 	}
 
 	h6 {
-		font-size: 3em;
+		font-size: 4em;
 		text-align: center;
 	}
 
@@ -276,38 +302,7 @@ html {
 		margin-top: 6%;
 	}
 
-	.mtl-pic {
-		height: 500px;
-		width: 100%;
-		right: 0;
-		z-index: -1;
-		position: absolute;
-	}
-
-	.blt-pic {
-		height: 600px;
-		width: 50%;
-		left: 0;
-		margin-left: 50%;
-		margin-right: 10%;
-		z-index: -1;
-		position: absolute;
-		margin-bottom: 15%;
-	}
-
-	.music-pic {
-		height: 100%;
-		width: 100%;
-	}
-
-	.mcgill-pic {
-		height: 100%;
-		width: 50%;
-		left: 20px;
-		z-index: -1;
-		transform: scaleX(-1);
-		display: inline-block;
-	}
+	
 
 
 	#montreal {
@@ -379,6 +374,7 @@ html {
 	    background-color: #f4f4f4;
 	    padding: 2em;
 	    text-overflow: none;
+	    position: relative;
 	}
 
 	.form.li {
@@ -431,7 +427,11 @@ html {
 
 	iframe {
 		width: 100%;
-		height: 100%;
+		/*height: 100%;*/
+	}
+
+	#galvao {
+		height: 600px;
 	}
 
 	.typed-cursor{
@@ -467,6 +467,38 @@ html {
 	    cursor:pointer;
 	}
 
+	.text-form {
+		padding-top: 9%;
+		padding-left: 20%;
+		padding-right:20%;
+		padding-bottom: 9%;
+	}
+
+	form {
+		border-left: none;
+		border-right: none;
+	}
+
+	.email-form {
+		width: 100%;
+		height: 100%; 
+	}
+
+	input {
+		display: block;
+		width: 100%;
+		height: 90px;
+		font-size: 3em;
+		cursor:pointer;
+	}
+
+	textarea {
+		width: 100%;
+		height: 90px;
+		font-size: 3em;
+		cursor:pointer;
+	}
+
 	/*.form-button {
 		float: right;
 		font-size: 3em;
@@ -488,9 +520,16 @@ html {
 	.w3-closebtn:hover, .w3-closebtn:focus{color:#000;text-decoration:none;cursor:pointer}
 
 @media screen and (max-width:768px) {
+ 	
+
  	h1 {
  		font-size: 5em;
  	}
+
+ 	h7 {
+ 		font-size: 2em;
+ 	}
+
 
  	.contact .bottom-contact {
  		font-size: 1em;
@@ -501,11 +540,27 @@ html {
  	}
 
  	section {
- 		height: 500px;
+ 		height: 700px;
  	}
 
+ 	.block-1 {
+ 		height: 400px;
+ 	}
+
+ 	.block-2 {
+ 		background-image: URL("../img/city2.jpg");
+ 		background-repeat: no-repeat;
+ 	}
+
+
+
+ 	.mobile-block{
+		display: block;
+		background-image: none;
+	}
+
  	.motto-1 {
- 		font-size: .8em;
+ 		font-size: 1.6em;
  		margin-top: 12%;
  	}
 
@@ -525,16 +580,24 @@ html {
  		height: 500px;
  	}
 
+ /*	.nyc-pic {
+ 		display: none;
+ 	}
+
+ 	.picture-mobile {
+ 		background-image: url("../img/city2.jpg");
+ 	}*/
+
  	.text {
- 		height: 500px;
+ 		display: none;
  	}
 
  	.block li {
- 		font-size: 1em;
+ 		font-size: 1.75em;
  	}
 
- 	h7 {
- 		font-size: 1em;
+ 	ul {
+ 		padding-left: 2.75%;
  	}
 
  	button {
