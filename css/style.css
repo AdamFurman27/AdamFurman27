@@ -469,9 +469,9 @@ html {
 	}
 
 	button {
-	    font-size: 1em;
+	    font-size: 2em;
 	    padding: .25em .275em;
-	    height: 45px;
+	    height: 50px;
 	   /* width: 50%;*/
 	    /*margin-left: 20%;*/
 	    text-decoration: none;
@@ -481,6 +481,7 @@ html {
 
 	.mtl-button {
 		height: 60px;
+		font-size: 1em;
 		padding-top: .15em;
 		padding-bottom: .15em;
 	}
@@ -581,7 +582,7 @@ html {
  	}
 
  	.block-3 {
- 		background-image: URL("../img/montreal2.jpg");
+ 		background-image: URL("../img/Montreal_small.jpg");
  		background-repeat: no-repeat;
  		height: 350px;
  	}
@@ -593,11 +594,10 @@ html {
  	}
 
  	.block-5 {
- 		background-image: URL("../img/Mcgill_Adam.jpg");
+ 		background-image: URL("../img/Mcgill_Adam_small.jpg");
  		background-repeat: no-repeat;
  		height: 350px;
  	}
-
  	.block-6 {
  		background-image: URL("../img/ga_center.jpg");
  		background-repeat: no-repeat;
@@ -618,8 +618,20 @@ html {
  	.mobile-block{
 		display: block;
 		background-image: none;
-		height: 1100px;
+		height: 1150px;
 		padding: 50px;
+	}
+
+	.mobile-block-3 {
+		height: 1000px;
+	}
+
+	.mobile-block-4 {
+		height: 900px;
+	}
+
+	.mobile-block-5 {
+		height: 800px;
 	}
 
  	.motto-1 {
@@ -672,11 +684,12 @@ html {
  	}
 
  	button {
- 		margin-left: 20%;
+ 		height: 80px;
  	}
 
  	.mtl-button {
  		margin: 0;
+ 		font-size: 1em;
  	}
 
  	h9 {
