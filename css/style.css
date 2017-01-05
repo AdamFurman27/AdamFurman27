@@ -479,6 +479,16 @@ html {
 	    cursor:pointer;
 	}
 
+	.mtl-button {
+		height: 60px;
+		padding-top: .15em;
+		padding-bottom: .15em;
+	}
+
+	#bottom-nyc-motto {
+		margin-top: 5px;
+	}
+
 	.text-form {
 		padding-top: 9%;
 		padding-left: 20%;
@@ -582,6 +592,29 @@ html {
  		height: 350px;
  	}
 
+ 	.block-5 {
+ 		background-image: URL("../img/Mcgill_Adam.jpg");
+ 		background-repeat: no-repeat;
+ 		height: 350px;
+ 	}
+
+ 	.block-6 {
+ 		background-image: URL("../img/ga_center.jpg");
+ 		background-repeat: no-repeat;
+ 		height: 350px;
+ 	}
+
+ 	.mobile-block-skills {
+ 		display: block;
+		background-image: none;
+		height: 1150px;
+		padding: 1px;
+	}
+
+	.mobile-block-skills h3 {
+		margin-top: 10px;
+	}
+
  	.mobile-block{
 		display: block;
 		background-image: none;
@@ -591,7 +624,6 @@ html {
 
  	.motto-1 {
  		font-size: 1.3em;
- 		margin-top: 12%;
  	}
 
  	.picture {
@@ -610,19 +642,23 @@ html {
  		height: 500px;
  	}
 
- /*	.nyc-pic {
- 		display: none;
- 	}
-
- 	.picture-mobile {
- 		background-image: url("../img/city2.jpg");
- 	}*/
-
  	.text {
  		display: none;
  	}
 
  	.text-2 {
+ 		display: none;
+ 	}
+
+ 	.text-3 {
+ 		display: none;
+ 	}
+
+ 	.skills-block {
+ 		display: none;
+ 	}
+
+ 	.block-7-remove {
  		display: none;
  	}
 
@@ -639,9 +675,29 @@ html {
  		margin-left: 20%;
  	}
 
+ 	.mtl-button {
+ 		margin: 0;
+ 	}
+
  	h9 {
 		font-size: .75em;
 	}
+
+	.contact {
+		font-size: 3em;
+		text-align: center;
+		padding: 2%;
+	}
+
+	.div-block {
+		padding-top: 50px;
+	}
+
+	.footer-block {
+		padding: 1px;
+	}
+
+
 }
 
 @media screen and (max-width: 450px) {
@@ -659,7 +715,11 @@ html {
 		margin-top: 5%;
 	}
 
-
+	.contact {
+		font-size: 3em;
+		text-align: center;
+		padding: 2%;
+	}
 
  	h1 {
  		font-size: 4em;
