@@ -541,6 +541,10 @@ html {
 
 	}
 
+	.mobile-block-7 {
+		display: none;
+	}
+
 	.w3-closebtn:hover, .w3-closebtn:focus{color:#000;text-decoration:none;cursor:pointer}
 
 @media screen and (max-width:768px) {
