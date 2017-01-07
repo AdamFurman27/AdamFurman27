@@ -20,10 +20,6 @@ html {
 	  height: 600px;
 	}
 
-	.block-2 {
-		height: 930px;
-	}
-
 	.wrapper {
 		display: block;
 		padding-left: 10%;
@@ -99,7 +95,9 @@ html {
 		background-color: #E5E5E5;
 	}
 
-
+	.block-2 {
+		height: 930px;
+	}
 
 	.skills {
 		width: 33.33%;
@@ -390,6 +388,12 @@ html {
 		text-align: left;
 		margin-bottom: 2%;
 	}
+
+	form li{
+		font-size: 1.5em;
+		margin-left: 5px;
+	}
+
 
 	#test-form, #test-form1, #test-form2, #test-form3, #test-form4, #test-form5, #test-form6, #test-form7, #test-form8, #test-form9, #test-form10 {
 	    margin: 20%;
