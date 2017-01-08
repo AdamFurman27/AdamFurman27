@@ -404,6 +404,11 @@ html {
 	    position: relative;
 	}
 
+	#test-form5 {
+		margin: 8%;
+		width: 600px;
+	}
+
 	.form.li {
 	    font-size: 3em;
 	    text-decoration-style: none;
@@ -643,6 +648,10 @@ html {
 		height: 800px;
 	}
 
+	.mobile-block-6 {
+		height: 900px;
+	}
+
 	.mobile-block-7 {
 		display: block;
 		background-image: none;
@@ -728,6 +737,10 @@ html {
 
 	.footer-block {
 		padding: 1px;
+	}
+
+	video {
+		width: 535px;
 	}
 
 
