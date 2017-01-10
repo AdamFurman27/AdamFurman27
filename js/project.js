@@ -54,6 +54,14 @@ $(document).ready(function(){
 	 }
  });
 
+ $(".test-form").validate({
+  rules: {
+    field: {
+      required: true
+    }
+  }
+});
+
  // jQuery(window).resize(function() {
  //           if ( jQuery(window).width() < 768 ) return false;
  //           showCover();
