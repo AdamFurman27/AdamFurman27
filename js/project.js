@@ -54,12 +54,16 @@ $(document).ready(function(){
 	 }
  });
 
- $(".test-form").validate({
-  rules: {
-    field: {
-      required: true
-    }
-  }
+//  $(".test-form").validate({
+//   rules: {
+//     field: {
+//       required: true
+//     }
+//   }
+// });
+
+ $('.block').imagesLoaded( function() {
+  // images have loaded
 });
 
  // jQuery(window).resize(function() {
