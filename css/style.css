@@ -237,6 +237,10 @@ typed.js*/
     /*height: 100%;*/
   }
 
+  video {
+    width: 100%;
+  }
+
   .footer-block {
     background-color: black;
   }
