@@ -2,8 +2,6 @@ $(document).ready(function(){
          
     //$("body.content").snapscroll();
 
-
-
     $('.popup-with-form').magnificPopup({
 		type: 'inline',
 		preloader: false,
@@ -22,63 +20,55 @@ $(document).ready(function(){
 		}
 	});
 
+	
+
 	$(".typed-bmore").typed({
 	strings: ["Born in Baltimore.", "Programmer.","Rock Climber.","Hiker,", "Scrambler", "Thinker.", "Political", "Community-Minded", "French", "","","", "Born in Baltimore."],
-	typeSpeed: 60
+	typeSpeed: 40
 	});
 
 	$(".typed-mtl").typed({
 	strings: [ "Musician In Montreal.", "Percussionist.", "Electric-Harp", "Drum-Set.", "Vibraphone.", "Hammer-Dulcimer.", "Pianist.", "German","","","","Musician In Montreal."],
-	typeSpeed: 60
+	typeSpeed: 40
 	});
 
 	$(".typed-nyc").typed({
 	strings: [ "Innovator in New York City.", "Digital Specialist", "Content Strategist", "Tech-Enthusiast", "Coder.", "Entrepreneaur", "English", "","","", "Innovator In New York City."],
-	typeSpeed: 60
+	typeSpeed: 40
 	});
 
+	// document.getElementById("last-block").onscroll = function() {typed()};
 
-   function initial() {
-      $('.nyc-pic').parallax('../img/city2.jpg');
-      $('.blt-pic').parallax('../img/baltimore.jpg');
-      $('.mtl-pic').parallax('../img/Montreal.jpg');
- }
+	// function typed() {
+	//     document.getElementById("bmore").innerHTML = 
+	//     	$(function(){
+	//         	$(".bmore").typed({
+	//             strings: ["Born In Baltimore.", "Rock Climber."],
+	//             typeSpeed: 0
+	//         	});
+ //    		});
+	//     ;
+	// }
 
- $(window).resize(function(){
-	if ($(window).innerWidth() > 768){
-	 	initial();
-	 } else {
-		$('nyc.pic').removeData('data-parallax');
-		$('blt.pic').removeData('parallax');
-		$('mtl.pic').removeData('parallax');
-	 }
- });
+	// var groups = {};
+	// $('.galleryItem').each(function() {
+	//   var id = parseInt($(this).attr('data-group'), 10);
+	  
+	//   if(!groups[id]) {
+	//     groups[id] = [];
+	//   } 
+	  
+	//   groups[id].push( this );
+	// });
 
-//  $(".test-form").validate({
-//   rules: {
-//     field: {
-//       required: true
-//     }
-//   }
-// });
+	// $.each(groups, function() {
+	  
+	//   $(this).magnificPopup({
+	//       type: 'image',
+	//       closeOnContentClick: true,
+	//       closeBtnInside: false,
+	//       gallery: { enabled:true }
+	//   })
 
- $('.block').imagesLoaded( function() {
-  // images have loaded
-});
-
- // jQuery(window).resize(function() {
- //           if ( jQuery(window).width() < 768 ) return false;
- //           showCover();
- //        }).resize();
-
-// conditional phrases. 
-// create function for initialization. 
-// To disable use a destroy function
-	// below 768 don't initialize the plugin
-	// $(window).innerWidth(768)
-    // $('.parallax-window').parallax({imageSrc: '/path/to/image.jpg'});
-	// 1.) When the page loads, if the browser window is wider than a certain amount, initialize plugin 
-	// 2.) if page width changes, if the width is above a certain amount, and the plugin is not initialized, initialize the plugin. 
-	// 3.) If window is smaller than a certain amount, and the width changes, and the plugin is initialized, un initialize the plugin. 
-
+	// });
 });
