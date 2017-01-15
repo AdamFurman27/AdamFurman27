@@ -37,6 +37,14 @@ $(document).ready(function(){
 	typeSpeed: 40
 	});
 
+
+	// $(function(){
+	//  	$.stellar({
+	//  		horizontalScrolling: false,
+	//  		verticalOffset: 150
+	//  	});
+	// });
+
 	// document.getElementById("last-block").onscroll = function() {typed()};
 
 	// function typed() {

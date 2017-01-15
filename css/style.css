@@ -86,24 +86,49 @@ section {
   padding: 5% 0;
 }
 
+.photo {
+  background-attachment: fixed;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  position: relative; 
+}
+
+.photo-2 {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative; 
+}
+
+.photo-3 {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative; 
+  background-position: 100%;
+}
+
 .nyc-pic {
-  height: 95em;
+  height: 50em;
+  background-image: url(../img/city2_large.jpg)
 }
 
 .blt-pic {
-  height: 50em;
+  height: 55em;
+  background-image: url(../img/baltimore.jpg)
 }
 
 .mtl-pic  {
-  height: 58em;
+  height: 28em;
+  background-image: url(../img/Montreal_2000.jpg)
 }
 
 .mcgill-pic {
-  height: 45em;
+  height: 50em;
+  background-image: url(../img/Mcgill_Adam5.jpg)
 }
 
 .ga-pic {
-  height: 42em;
+  height: 40em;
+  background-image: url('../img/ga_center_crop.jpg')
 }
 
 /*HEADERS*/
@@ -247,6 +272,75 @@ typed.js*/
 
   .footer-block h7 {
     color: white;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  @media only screen and (max-width: 1000px) {
+
+     .block.mobile {
+      display: none;
+    }
+
+  @media only screen and (min-width: 350px) {
+    .block .remove {
+      display: none;
+    }
+
+    .block .mobile {
+      display: block;
+    }
+
+    .message,.name, .email, .submit{
+    font-size: 3em;
+    width: 100%;
+    }
+
+    form {
+      padding-left: 0;
+    }
+
+    .motto-1 h4 {
+      font-size: 3.5em;
+    }
+
+    .footer-block h7 {
+      font-size: 1.9em;
+    }
+
+    .city-button {
+      width: 100%;
+    }
+
+    .text {
+      padding-right: 3.5%;
+    }
+
+    .ga-pic {
+    height: 40em;
+    background-image: url('../img/ga_center_22.jpg')
+    }
+
+    .photo-3 {
+      background-color: white;
+    }
+
+    .right, .left {
+    border-right: 2px black dashed;
+    border-left: 2px black dashed;
+    }
+
+    .description {
+      font-size: 2.8em;
+    }
+
+    #test-form, #test-form1, #test-form2, #test-form3, #test-form4, #test-form5, #test-form6, #test-form7, #test-form8, #test-form9, #test-form10 {
+      margin: 0;
+    }
+
+
   }
 
 /*  @media (min-width: @screen-sm-min) {
