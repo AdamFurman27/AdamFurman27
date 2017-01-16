@@ -152,6 +152,7 @@ section {
 
 .block h3 {
 	font-size: 2.8em;
+  font-weight: bold;
 }
 
 .block h5 {
@@ -160,7 +161,7 @@ section {
 }
 
 li {
-	font-size: 2em;
+	font-size: 2.5em;
 }
 
 .text h2 {
@@ -284,23 +285,25 @@ typed.js*/
     display: none;
   }
 
-/*  i-scroller */
+                              /*  i-scroller */
 
-.mobile body {
-  overflow: hidden;
- }
+                              .mobile body {
+                                overflow: hidden;
+                               }
 
-.mobile #wrapper {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
+                              .mobile #wrapper {
+                                position: absolute;
+                                top: 0;
+                                bottom: 0;
+                                left: 0;
+                                width: 100%;
+                              }
 
-.mobile #scroller {
-  height: 3000px;
-}
+                              .mobile #scroller {
+                                height: 3000px;
+                              }
+                              /*
+                              end of iscoller css*/
 
   @media only screen and (max-width: 1000px) {
 
@@ -343,7 +346,7 @@ typed.js*/
     }
 
     .ga-pic {
-    height: 40em;
+    height: 48em;
     background-image: url('../img/ga_center_22.jpg')
     }
 
