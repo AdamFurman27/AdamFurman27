@@ -106,6 +106,12 @@ section {
   background-position: 100%;
 }
 
+.photo, .photo-2, .photo-3{
+  border: 1px solid #999;
+  background-color: #fcfcfc;
+  padding: 4px;
+}
+
 .nyc-pic {
   height: 50em;
   background-image: url(../img/city2_large.jpg)
