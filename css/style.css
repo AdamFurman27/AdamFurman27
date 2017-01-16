@@ -117,6 +117,11 @@ section {
   background-image: url(../img/city2_large.jpg)
 }
 
+.nyc-pic-2 {
+  height: 50em;
+  background-image: url(../img/city2_large.jpg)
+}
+
 .blt-pic {
   height: 55em;
   background-image: url(../img/baltimore.jpg)
