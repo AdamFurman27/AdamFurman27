@@ -280,13 +280,31 @@ typed.js*/
     color: white;
   }
 
-  .mobile {
+  .mobile-block {
     display: none;
   }
 
+/*  i-scroller */
+
+.mobile body {
+  overflow: hidden;
+ }
+
+.mobile #wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.mobile #scroller {
+  height: 3000px;
+}
+
   @media only screen and (max-width: 1000px) {
 
-     .block.mobile {
+     .block.mobile-block {
       display: none;
     }
 
@@ -295,7 +313,7 @@ typed.js*/
       display: none;
     }
 
-    .block .mobile {
+    .block .mobile-block {
       display: block;
     }
 
