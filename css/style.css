@@ -147,7 +147,8 @@ section {
 
 .mcgill-pic {
   height: 50em;
-  background-image: url(../img/Mcgill_Adam5.jpg)
+  background-image: url(../img/Mcgill_Adam5.jpg);
+  background-size: cover;
 }
 
 .ga-pic {
@@ -157,7 +158,8 @@ section {
 
 .ga-pic-2 {
   height: 40em;
-  background-image: url('../img/ga_block_2.png')
+  background-image: url('../img/ga_block_2.png');
+  background-size: cover;
 }
 /*HEADERS*/
 
