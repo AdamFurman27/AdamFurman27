@@ -120,6 +120,7 @@ section {
 .nyc-pic-2 {
   height: 45em;
   background-image: url(../img/city_small.jpg)
+  background-repeat: no-repeat;
 }
 
 .blt-pic {
@@ -140,6 +141,7 @@ section {
 .mtl-pic-2  {
   height: 40em;
   background-image: url(../img/Montreal_square.jpg)
+  background-repeat: no-repeat;
 }
 
 .mcgill-pic {
@@ -155,6 +157,7 @@ section {
 .ga-pic-2 {
   height: 35em;
   background-image: url('../img/ga_block_2.png')
+  background-repeat: no-repeat;
 }
 /*HEADERS*/
 
