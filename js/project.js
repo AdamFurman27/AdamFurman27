@@ -60,7 +60,7 @@ $(document).ready(function(){
           verticalOffset: 150
         });
       } else {
-        $('.stellar')({
+        $.stellar({
           horizontalScrolling: false,
           verticalOffset: 150
         });
