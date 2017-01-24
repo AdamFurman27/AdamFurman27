@@ -40,34 +40,34 @@ $(document).ready(function(){
 
 
 // ISCROLL.JS
- 	(function(){
-    var ua = navigator.userAgent,
-      isMobileWebkit = /WebKit/.test(ua) && /Mobile/.test(ua);
+//  	(function(){
+//     var ua = navigator.userAgent,
+//       isMobileWebkit = /WebKit/.test(ua) && /Mobile/.test(ua);
 
-    if (isMobileWebkit) {
-      $('html').addClass('mobile');
-    }
+//     if (isMobileWebkit) {
+//       $('html').addClass('mobile');
+//     }
 
-    $(function(){
-      var iScrollInstance;
+//     $(function(){
+//       var iScrollInstance;
 
-      if (isMobileWebkit) {
-        iScrollInstance = new iScroll('wrapper');
+//       if (isMobileWebkit) {
+//         iScrollInstance = new iScroll('wrapper');
 
-        $('#scroller').stellar({
-          scrollProperty: 'transform',
-          horizontalScrolling: false,
-          verticalOffset: 150
-        });
-      } else {
-        $.stellar({
-          horizontalScrolling: false,
-          verticalOffset: 150
-        });
-      }
-    	});
+//         $('#scroller').stellar({
+//           scrollProperty: 'transform',
+//           horizontalScrolling: false,
+//           verticalOffset: 150
+//         });
+//       } else {
+//         $.stellar({
+//           horizontalScrolling: false,
+//           verticalOffset: 150
+//         });
+//       }
+//     	});
 
-})();
+// })();
 
 	// document.getElementById("last-block").onscroll = function() {typed()};
 
