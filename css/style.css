@@ -119,7 +119,7 @@ section {
 
 .nyc-pic-2 {
   height: 45em;
-  background-image: url(../img/city_small.jpg)
+  background-image: url(../img/city_small.jpg);
   background-size: cover;
 }
 
