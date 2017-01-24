@@ -118,8 +118,8 @@ section {
 }
 
 .nyc-pic-2 {
-  height: 50em;
-  background-image: url(../img/city2_large.jpg)
+  height: 45em;
+  background-image: url(../img/city_small.jpg)
 }
 
 .blt-pic {
@@ -127,9 +127,19 @@ section {
   background-image: url(../img/baltimore.jpg)
 }
 
+.blt-pic-2 {
+  height: 26em;
+  background-image: url(../img/baltimore_small.jpg)
+}
+
 .mtl-pic  {
   height: 32em;
   background-image: url(../img/Montreal_2000.jpg)
+}
+
+.mtl-pic-2  {
+  height: 40em;
+  background-image: url(../img/Montreal_square.jpg)
 }
 
 .mcgill-pic {
@@ -142,6 +152,10 @@ section {
   background-image: url('../img/ga_center_crop.jpg')
 }
 
+.ga-pic-2 {
+  height: 35em;
+  background-image: url('../img/ga_block_2.png')
+}
 /*HEADERS*/
 
 .title h1{
@@ -290,30 +304,15 @@ typed.js*/
     display: none;
   }
 
-                              /*  i-scroller */
-
-                              .mobile body {
-                                overflow: hidden;
-                               }
-
-                              .mobile #wrapper {
-                                position: absolute;
-                                top: 0;
-                                bottom: 0;
-                                left: 0;
-                                width: 100%;
-                              }
-
-                              .mobile #scroller {
-                                height: 3000px;
-                              }
-                              /*
-                              end of iscoller css*/
+  
 
   @media only screen and (max-width: 1000px) {
 
      .block.mobile-block {
-      display: none;
+      display: block;
+      background-position: 100%;
+      background-repeat: no-repeat;
+      position: relative; 
     }
 
   @media only screen and (min-width: 350px) {
@@ -323,6 +322,9 @@ typed.js*/
 
     .block .mobile-block {
       display: block;
+      background-position: 100%;
+      background-repeat: no-repeat;
+      position: relative;
     }
 
     .message,.name, .email, .submit{
