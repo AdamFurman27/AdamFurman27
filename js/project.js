@@ -20,7 +20,7 @@ $(document).ready(function(){
 		}
 	});
 
-	
+	//
 
 	$(".typed-bmore").typed({
 	strings: ["Born in Baltimore.", "Programmer.","Rock Climber.","Hiker,", "Scrambler", "Thinker.", "Political", "Community-Minded", "French", "","","", "Born in Baltimore."],
@@ -37,70 +37,4 @@ $(document).ready(function(){
 	typeSpeed: 40
 	});
 
-
-
-// ISCROLL.JS
-//  	(function(){
-//     var ua = navigator.userAgent,
-//       isMobileWebkit = /WebKit/.test(ua) && /Mobile/.test(ua);
-
-//     if (isMobileWebkit) {
-//       $('html').addClass('mobile');
-//     }
-
-//     $(function(){
-//       var iScrollInstance;
-
-//       if (isMobileWebkit) {
-//         iScrollInstance = new iScroll('wrapper');
-
-//         $('#scroller').stellar({
-//           scrollProperty: 'transform',
-//           horizontalScrolling: false,
-//           verticalOffset: 150
-//         });
-//       } else {
-//         $.stellar({
-//           horizontalScrolling: false,
-//           verticalOffset: 150
-//         });
-//       }
-//     	});
-
-// })();
-
-	// document.getElementById("last-block").onscroll = function() {typed()};
-
-	// function typed() {
-	//     document.getElementById("bmore").innerHTML = 
-	//     	$(function(){
-	//         	$(".bmore").typed({
-	//             strings: ["Born In Baltimore.", "Rock Climber."],
-	//             typeSpeed: 0
-	//         	});
- //    		});
-	//     ;
-	// }
-
-	// var groups = {};
-	// $('.galleryItem').each(function() {
-	//   var id = parseInt($(this).attr('data-group'), 10);
-	  
-	//   if(!groups[id]) {
-	//     groups[id] = [];
-	//   } 
-	  
-	//   groups[id].push( this );
-	// });
-
-	// $.each(groups, function() {
-	  
-	//   $(this).magnificPopup({
-	//       type: 'image',
-	//       closeOnContentClick: true,
-	//       closeBtnInside: false,
-	//       gallery: { enabled:true }
-	//   })
-
-	// });
 });
