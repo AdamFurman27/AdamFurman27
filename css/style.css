@@ -158,7 +158,8 @@ section {
 
 .ga-pic {
   height: 40em;
-  background-image: url('../img/ga_center_crop.jpg')
+  background-image: url('../img/ga_center_44.jpg')
+  
 }
 
 .ga-pic-2 {
@@ -233,6 +234,10 @@ typed.js*/
   }
 
   .city-button {
+    height: 100%;
+  }
+
+  #pres-button {
     height: 100%;
   }
 
